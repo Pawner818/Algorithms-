@@ -37,7 +37,7 @@ int main()
     // Additional extension - it shows how much time our 
     auto start = chrono::high_resolution_clock::now();
 
-    vector <Person> Students 
+    vector <Person> Students {
         Person("Zakhar",192,22),
         Person("Misha", 129,21),
         Person("Sergey", 200, 16),
